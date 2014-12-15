@@ -86,6 +86,9 @@
     
     // update the height constraint
     self.heightConstraint.constant = newHeight;
+    
+    // Making sure the content offset is set to zero everytime.
+    self.contentOffset = CGPointZero;
 }
 
 
